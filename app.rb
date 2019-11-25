@@ -12,3 +12,7 @@ end
 get '/test' do
   "This is a test"
 end
+
+get '/cat' do
+ erb(:index)
+end
